@@ -24,10 +24,11 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
+    "dev": "tsx watch src/server.ts",
     "test": ""
   },
   "dependencies": {
+    "@prisma/client": "^6.2.1",
     "express": "^4.21.2",
     "kafkajs": "^2.2.4"
   },
